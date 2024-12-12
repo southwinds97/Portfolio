@@ -3,11 +3,12 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { FaFilePowerpoint } from "react-icons/fa";
 
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ width: '100%', height: '500px' }} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -33,6 +34,17 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+
+        {/* 새로운 버튼 추가 */}
+        {/* <Button
+          variant="primary"
+          href={props.twitterLink}
+          target="_blank"
+          style={{ marginLeft: "10px" }}
+        >
+          <FaFilePowerpoint /> &nbsp;
+          {"PDF"}
+        </Button> */}
       </Card.Body>
     </Card>
   );
