@@ -12,7 +12,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          내 <strong className="purple">프로젝트 </strong>
+          <strong className="purple">프로젝트 </strong> 참여 현황
         </h1>
         <p style={{ color: "white" }}>
           최근에 작업한 프로젝트는 다음과 같습니다.
