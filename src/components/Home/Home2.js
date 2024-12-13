@@ -21,7 +21,7 @@ function Home2() {
               저를 <span className="purple"> 소개 </span> 합니다!
             </h1>
             <p className="home-about-body">
-              저는 프로그래밍을 공부하면서 프로그래밍에 빠져버렸고
+              저는 프로그래밍을 공부하면서 프로그래밍에 빠져버렸고 <br />
               그것이 제 삶의 한층 더 나아가게 해주었습니다.
               <br />
               <br />저는 {" "}
