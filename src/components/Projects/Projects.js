@@ -25,7 +25,7 @@ function Projects() {
               title="쇼핑몰 앱 및 AWS 연동(REST API)"
               description="Flutter를 활용하여 이전에 제작한 쇼핑몰 웹사이트와 데이터 연동이 가능한 모바일 앱 제작한 프로젝트입니다. "
               ghLink="https://github.com/southwinds97/shopping_app"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://southwinds97.github.io/guziktigerapp/"
             />
           </Col>
 
@@ -47,7 +47,7 @@ function Projects() {
               title="첫 웹사이트 구현"
               description="HTML & CSS, JavaScript, Java, JSP, OracleDB를 활용하여 구현한 웹사이트입니다. 메인페이지, 로그인, 게시판, 댓글 등이 있습니다."
               ghLink="https://github.com/southwinds97/WebProject_LHS"
-              demoLink="https://editor.soumya-jit.tech/"
+              demoLink="https://southwinds97.github.io/webproject/"
             />
           </Col>
 
